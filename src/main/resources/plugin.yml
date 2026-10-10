@@ -1,0 +1,14 @@
+name: JackHunt
+version: 1.0.0
+main: ru.example.jackhunt.JackHuntPlugin
+api-version: '1.21'
+author: ServerTeam
+description: Halloween event - hunt for Jack's head
+commands:
+  jack:
+    description: Управление ивентом «Охота за головой Джека»
+    usage: /jack <start|stop|top|points|setcenter|reload>
+permissions:
+  jackhunt.admin:
+    description: Управление ивентом
+    default: op
